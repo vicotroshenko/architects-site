@@ -1,21 +1,22 @@
-@import url("../fonts/Roboto/stylesheet.css");
+@import url('../fonts/Roboto/stylesheet.css');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base {
-	*, *::after, *::before {
-		@apply font-serif box-border;
-	}
-	h2 {
-		@apply text-5xl text-gray-bd font-light;
-	}
+  *,
+  *::after,
+  *::before {
+    @apply font-serif box-border;
+  }
+  h2 {
+    @apply text-5xl text-gray-bd font-light;
+  }
 }
 
 @layer components {
-	.activeLink {
-		@apply before:block before:absolute before:top-0 before:w-full before:h-px before:bg-black before:animate-gradually-width 
-		after:block after:absolute after:bottom-0 after:w-full after:h-px after:bg-black after:animate-gradually-width ;
-	}
+  .activeLink {
+    @apply before:block before:absolute before:top-0 before:w-full before:h-px before:bg-black before:animate-gradually-width 
+		after:block after:absolute after:bottom-0 after:w-full after:h-px after:bg-black after:animate-gradually-width;
+  }
 }

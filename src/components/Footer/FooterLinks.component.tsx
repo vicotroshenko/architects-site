@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 interface FooterLinksProps {
   links: string[];
@@ -10,7 +10,7 @@ const FooterLinks: React.FC<FooterLinksProps> = ({ links }) => {
       {links.map((link: string, index) => (
         <li key={index}>
           <Link
-            href={`/${link === "main" ? "" : link}`}
+            href={`/${link === 'main' ? '' : link}`}
             className="text-sm leading-loose tracking-wide capitalize"
           >
             {link}

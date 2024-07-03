@@ -1,16 +1,16 @@
-import type { Config } from "tailwindcss";
+import type { Config } from 'tailwindcss';
 
 const config: Config = {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     screens: {
-      'sm': '480px',
-      'md': '768px',
-      'lg': '1170px',
+      sm: '480px',
+      md: '768px',
+      lg: '1170px',
     },
     fontSize: {
       xs: ['12px', { lineHeight: '1' }],
@@ -24,7 +24,7 @@ const config: Config = {
     },
     lineHeight: {
       none: '1',
-      snug: "1.25",
+      snug: '1.25',
       normal: '1.5625',
       relaxed: '1.6363',
       loose: '1.714',
@@ -37,33 +37,30 @@ const config: Config = {
     },
     extend: {
       fontFamily: {
-        serif: [
-          '"Roboto"',
-          'sans-serif',
-        ],
+        serif: ['"Roboto"', 'sans-serif'],
       },
       colors: {
         transparent: 'transparent',
         current: 'currentColor',
-        'white': '#ffffff',
-        'black-33': "#333333",
-        'black-2c': "#2C2C2C",
-        "gray-f2": "#F2F2F2",
-        "gray-f3": "#F3F3F3",
-        "gray-c8": "#C8C8C8",
-        "gray-bd": "#BDBDBD",
+        white: '#ffffff',
+        'black-33': '#333333',
+        'black-2c': '#2C2C2C',
+        'gray-f2': '#F2F2F2',
+        'gray-f3': '#F3F3F3',
+        'gray-c8': '#C8C8C8',
+        'gray-bd': '#BDBDBD',
       },
       margin: {
-        "120px": "120px",
+        '120px': '120px',
       },
       keyframes: {
         wider: {
-          '0%': {width: '0%'},
-          "100%": {width: '100%'},
-        }
+          '0%': { width: '0%' },
+          '100%': { width: '100%' },
+        },
       },
       animation: {
-        'gradually-width': 'wider .3s linear'
+        'gradually-width': 'wider .3s linear',
       },
     },
   },

@@ -1,29 +1,29 @@
 {
-	"text": {
-		"title": "about",
-		"info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
-		"linkButton": "read more" 
-	},
-	"pictures": {
-		"mobile": [
-			"https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/about-1-mobile.jpg?raw=true",
-			"https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/about-2-mobile.jpg?raw=true",
-			"https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/about-3-mobile.jpg?raw=true"
-		],
-		"mobile2x": [
-			"https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/about-1-mobile_2x.jpg?raw=true",
-			"https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/about-2-mobile_2x.jpg?raw=true",
-			"https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/about-3-mobile_2x.jpg?raw=true"
-		],
-		"desktop": [
-			"https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/about-1-desctop.jpg?raw=true",
-			"https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/about-2-desctop.jpg?raw=true",
-			"https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/about-3-desctop.jpg?raw=true"
-		],
-		"desktop2x": [
-			"https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/about-1-desctop_2x.jpg?raw=true",
-			"https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/about-2-desctop_2x.jpg?raw=true",
-			"https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/about-3-desctop_2x.jpg?raw=true"
-		]
-	}
+  "text": {
+    "title": "about",
+    "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "linkButton": "read more"
+  },
+  "pictures": {
+    "mobile": [
+      "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/about-1-mobile.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/about-2-mobile.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/about-3-mobile.jpg?raw=true"
+    ],
+    "mobile2x": [
+      "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/about-1-mobile_2x.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/about-2-mobile_2x.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/about-3-mobile_2x.jpg?raw=true"
+    ],
+    "desktop": [
+      "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/about-1-desctop.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/about-2-desctop.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/about-3-desctop.jpg?raw=true"
+    ],
+    "desktop2x": [
+      "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/about-1-desctop_2x.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/about-2-desctop_2x.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/about-3-desctop_2x.jpg?raw=true"
+    ]
+  }
 }
