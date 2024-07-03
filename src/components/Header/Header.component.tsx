@@ -2,10 +2,9 @@ import React from "react";
 import Link from "next/link";
 import { RxHamburgerMenu } from "react-icons/rx";
 import CONTENT from "../../data/header.json";
-import HeaderLink from "../HeaderLink/HeaderLink";
-import Container from "../Container/Container";
-import Logo from "../Logo/Logo";
-
+import Container from "../Container/Container.component";
+import Logo from "../Logo/Logo.component";
+import HeaderLink from "../HeaderLink/HeaderLink.component";
 
 const Header = () => {
   return (
@@ -23,7 +22,7 @@ const Header = () => {
             </ul>
           </nav>
           <button type="button" className="w-[40px] h-[40px] lg:hidden">
-            <RxHamburgerMenu className="w-full h-full"/>
+            <RxHamburgerMenu className="w-full h-full" />
           </button>
         </div>
       </Container>
