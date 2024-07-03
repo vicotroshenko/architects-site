@@ -1,6 +1,6 @@
-import { nanoid } from "nanoid";
-import Image from "next/image";
-import Link from "next/link";
+import { nanoid } from 'nanoid';
+import Image from 'next/image';
+import Link from 'next/link';
 
 interface FooterLinksSMProps {
   media: { [x: string]: string }[];
@@ -11,7 +11,11 @@ const FooterLinksSM: React.FC<FooterLinksSMProps> = ({ media }) => {
     <ul className="flex justify-between gap-10">
       {media.map(({ logo, link }) => (
         <li key={nanoid()}>
-          <Link href={link} target="_blank" rel="noopener noreferrer nofollow">
+          <Link
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+          >
             <Image
               src={logo}
               width={20}
