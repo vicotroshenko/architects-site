@@ -1,5 +1,5 @@
-import Footer from '@/components/Footer/Footer';
-import Header from '@/components/Header/Header';
+import Footer from '@/components/Footer/Footer.component';
+import Header from '@/components/Header/Header.component';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 
