@@ -14,15 +14,15 @@
 			"title": "contacts",
 			"all": [
 				{
-					"icon": "../img/svg/location-icon.svg",
+					"icon": "https://raw.githubusercontent.com/vicotroshenko/architects-site/57ec52d7d5985f6e1c7a7de6fe7417913c84dce5/src/img/svg/location-icon.svg",
 					"address": "1234 Sample Street Austin Texas 78704"
 				},
 				{
-					"icon": "../img/svg/phone-icon.svg",
+					"icon": "https://raw.githubusercontent.com/vicotroshenko/architects-site/57ec52d7d5985f6e1c7a7de6fe7417913c84dce5/src/img/svg/phone-icon.svg",
 					"address": "512.333.2222"
 				},
 				{
-					"icon": "../img/svg/envelop-icon.svg",
+					"icon": "https://raw.githubusercontent.com/vicotroshenko/architects-site/57ec52d7d5985f6e1c7a7de6fe7417913c84dce5/src/img/svg/envelop-icon.svg",
 					"address": "sampleemail@gmail.com"
 				}
 			]
@@ -31,19 +31,19 @@
 			"title": "Social Media",
 			"links": [
 				{
-					"logo": "../img/svg/facebook.svg",
+					"logo": "https://raw.githubusercontent.com/vicotroshenko/architects-site/57ec52d7d5985f6e1c7a7de6fe7417913c84dce5/src/img/svg/facebook.svg",
 					"link": "https://www.facebook.com/"
 				},
 				{
-					"logo": "../img/svg/twitter.svg",
+					"logo": "https://raw.githubusercontent.com/vicotroshenko/architects-site/57ec52d7d5985f6e1c7a7de6fe7417913c84dce5/src/img/svg/twitter.svg",
 					"link": "https://twitter.com/"
 				},
 				{
-					"logo": "../img/svg/Linked In.svg",
+					"logo": "https://raw.githubusercontent.com/vicotroshenko/architects-site/57ec52d7d5985f6e1c7a7de6fe7417913c84dce5/src/img/svg/Linked%20In.svg",
 					"link": "https://www.linkedin.com/"
 				},
 				{
-					"logo": "../img/svg/pinterest.svg",
+					"logo": "https://raw.githubusercontent.com/vicotroshenko/architects-site/57ec52d7d5985f6e1c7a7de6fe7417913c84dce5/src/img/svg/pinterest.svg",
 					"link": "https://ru.pinterest.com/"
 				}
 			]
