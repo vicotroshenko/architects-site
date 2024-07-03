@@ -7,6 +7,11 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      'sm': '480px',
+      'md': '768px',
+      'lg': '1170px',
+    },
     fontSize: {
       xs: ['12px', { lineHeight: '1' }],
       sm: ['14px', { lineHeight: '1' }],
@@ -19,8 +24,10 @@ const config: Config = {
     },
     lineHeight: {
       none: '1',
+      snug: "1.25",
       normal: '1.5625',
       relaxed: '1.6363',
+      loose: '1.714',
     },
     letterSpacing: {
       normal: '0em',
@@ -48,7 +55,16 @@ const config: Config = {
       },
       margin: {
         "120px": "120px",
-      }
+      },
+      keyframes: {
+        wider: {
+          '0%': {width: '0%'},
+          "100%": {width: '100%'},
+        }
+      },
+      animation: {
+        'gradually-width': 'wider .3s linear'
+      },
     },
   },
   plugins: [],
