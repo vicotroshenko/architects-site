@@ -1,7 +1,6 @@
 import clsx from 'clsx';
 import React from 'react';
-
-import RightArrow from '../../../img/svg/right-arrow.svg';
+import { IoIosArrowRoundForward } from "react-icons/io";
 
 enum ButtonStyle {
   LIGHT = 'bg-white text-black-33',
@@ -30,7 +29,7 @@ const ButtonWrapper: React.FC<ButtonWrapper> = ({
       )}
     >
       {children}
-      {arrow && <RightArrow className={arrowStyle} />}
+      {arrow && <IoIosArrowRoundForward className={arrowStyle} width={14}/>}
     </div>
   );
 };

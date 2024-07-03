@@ -1,5 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  images: {
+    deviceSizes: [480, 768, 1170],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'github.com',
+      },
+    ],
+  },
   webpack(config) {
     const fileLoaderRule = config.module.rules.find((rule) =>
       rule.test?.test?.('.svg')
@@ -20,7 +29,6 @@ const nextConfig = {
         use: ['@svgr/webpack'],
       }
     );
-
     fileLoaderRule.exclude = /\.svg$/i;
 
     return config;
