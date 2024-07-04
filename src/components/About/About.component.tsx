@@ -3,39 +3,42 @@ import { nanoid } from 'nanoid';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import { IoIosArrowRoundForward } from 'react-icons/io';
 
 import CONTENT from '../../../public/data/about.json';
 import ButtonWrapper from '../ButtonWrapper/ButtonWrapper.component';
 import Container from '../Container/Container.component';
+import Title from '../Title/Title.component';
+import AboutImageItem from './AboutImageItem.component';
 
 const About = () => {
   const { text, pictures } = CONTENT;
   return (
-    <Container>
-      <div className="flex items-center w-full bg-gray-f3 py-[30px] px-[70px]">
-        <div className="flex flex-wrap w-full">
+    <Container sx="mb-[120px] bg-gray-f3">
+      <div className="flex items-center w-full lg:max-h-[435px] py-[30px] px-[70px]">
+        <ul className="w-full flex flex-wrap gap-[30px] max-md:hidden">
           {pictures.map((pic, index) => (
-            <div
-              className={clsx(
-                'relative w-full max-w-[270px] first:h-[265px]',
-                '[&:nth-child(2)]:h-[345px]',
-                'last:h-[140px]'
-              )}
+            <AboutImageItem
               key={nanoid()}
-            >
-              <Image
-                src={pic.a_1}
-                fill
-                alt={`about pic # ${index + 1}`}
-              />
-            </div>
+              image={pic.a_1}
+              alt={`about pictures ${index + 1}`}
+            />
           ))}
-        </div>
-        <div className='w-full max-w-[430px] pl-[30px] pr-70px'>
-          <h2 className="mb-5 capitalize">{text.title}</h2>
-          <p className="mb-5">{text.info}</p>
+        </ul>
+        <div className="w-full max-w-[430px] pl-[30px] pr-70px">
+          <Title>{text.title}</Title>
+          <p className="mb-5 text-base leading-relaxed">{text.info}</p>
           <ButtonWrapper style="LIGHT">
-            <Link href="about">{text.linkButton}</Link>
+            <Link
+              href="about"
+              className="flex justify-center items-center gap-2 h-full w-full uppercase tracking-widest text-xs"
+            >
+              {text.linkButton}
+              <IoIosArrowRoundForward
+                className="fill-black"
+                width={14}
+              />
+            </Link>
           </ButtonWrapper>
         </div>
       </div>
