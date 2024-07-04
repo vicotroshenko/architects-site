@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import CONTENT from '../../data/footer.json';
+import CONTENT from '../../../public/data/footer.json';
 import Container from '../Container/Container.component';
 import Logo from '../Logo/Logo.component';
 import FooterContacts from './FooterContacts.component';

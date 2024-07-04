@@ -1,6 +1,5 @@
 import clsx from 'clsx';
 import React from 'react';
-import { IoIosArrowRoundForward } from "react-icons/io";
 
 enum ButtonStyle {
   LIGHT = 'bg-white text-black-33',
@@ -15,11 +14,8 @@ interface ButtonWrapper {
 
 const ButtonWrapper: React.FC<ButtonWrapper> = ({
   children,
-  arrow = true,
   style = 'DARK',
 }) => {
-  const arrowStyle =
-    style === Object.keys(ButtonStyle)[0] ? 'fill-black' : 'fill-white';
   return (
     <div
       className={clsx(
@@ -29,7 +25,6 @@ const ButtonWrapper: React.FC<ButtonWrapper> = ({
       )}
     >
       {children}
-      {arrow && <IoIosArrowRoundForward className={arrowStyle} width={14}/>}
     </div>
   );
 };

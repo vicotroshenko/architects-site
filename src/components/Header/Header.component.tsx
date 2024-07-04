@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 import { RxHamburgerMenu } from 'react-icons/rx';
 
-import CONTENT from '../../data/header.json';
+import CONTENT from '../../../public/data/header.json';
 import Container from '../Container/Container.component';
 import HeaderLink from '../HeaderLink/HeaderLink.component';
 import Logo from '../Logo/Logo.component';
