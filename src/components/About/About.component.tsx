@@ -15,7 +15,7 @@ const About = () => {
   const { text, pictures } = CONTENT;
   return (
     <Container sx="mb-[120px] bg-gray-f3">
-      <div className="flex items-center w-full lg:max-h-[435px] py-[30px] px-[70px]">
+      <div className="container mx-auto flex items-center w-full lg:max-h-[435px] py-[30px] px-[70px]">
         <ul className="w-full flex flex-wrap gap-[30px] max-md:hidden">
           {pictures.map((pic, index) => (
             <AboutImageItem
