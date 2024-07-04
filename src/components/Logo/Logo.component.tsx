@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 
-import LogoImage from '../../img/svg/logo.svg';
+import LogoImage from '../../../public/images/svg/logo.svg';
 
 interface LogoProps {
   sx?: string;

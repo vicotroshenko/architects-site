@@ -1,13 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    deviceSizes: [480, 768, 1170],
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'github.com',
-      },
-    ],
+    deviceSizes: [768, 1170],
   },
   webpack(config) {
     const fileLoaderRule = config.module.rules.find((rule) =>
