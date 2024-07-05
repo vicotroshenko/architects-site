@@ -1,11 +1,9 @@
-import clsx from 'clsx';
 import { nanoid } from 'nanoid';
-import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import { IoIosArrowRoundForward } from 'react-icons/io';
 
 import CONTENT from '../../../public/data/about.json';
+import ArrowIcon from '../ArrowIcon/ArrowIcon.component';
 import ButtonWrapper from '../ButtonWrapper/ButtonWrapper.component';
 import Container from '../Container/Container.component';
 import Title from '../Title/Title.component';
@@ -13,7 +11,6 @@ import AboutImageItem from './AboutImageItem.component';
 
 const About = () => {
   const { text, pictures } = CONTENT;
-  const text  = 'this is new'
   return (
     <Container sx="mb-[120px] bg-gray-f3">
       <div className="container mx-auto flex items-center w-full lg:max-h-[435px] py-[30px] px-[70px]">
@@ -35,8 +32,8 @@ const About = () => {
               className="flex justify-center items-center gap-2 h-full w-full uppercase tracking-widest text-xs"
             >
               {text.linkButton}
-              <IoIosArrowRoundForward
-                className="fill-black"
+              <ArrowIcon
+                wrapperClassName="fill-black"
                 width={14}
               />
             </Link>

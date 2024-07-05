@@ -17,6 +17,8 @@ const AboutImageItem: React.FC<AboutImageItemProps> = ({ image, alt }) => {
         src={image}
         fill
         alt={alt}
+        className='aspect-auto'
+        sizes='(max-width: 767px) 0w, (min-width: 768px) 100w'
       />
     </li>
   );
