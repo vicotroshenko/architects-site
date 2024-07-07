@@ -49,6 +49,7 @@ const config: Config = {
         'gray-f3': '#F3F3F3',
         'gray-c8': '#C8C8C8',
         'gray-bd': '#BDBDBD',
+        'gray-dark': '#8D8D8D',
       },
       margin: {
         '120px': '120px',
