@@ -10,8 +10,7 @@ import Logo from '../Logo/Logo.component';
 const Header = () => {
   return (
     <header className="w-full">
-      <Container>
-        <div className="min-h-[102px] flex items-center justify-between lg:pr-[134px]">
+        <div className="container min-h-[102px] flex items-center justify-between lg:pr-[134px] m-auto">
           <Link
             href="/"
             aria-label="link to main page"
@@ -36,7 +35,6 @@ const Header = () => {
             <RxHamburgerMenu className="w-full h-full" />
           </button>
         </div>
-      </Container>
     </header>
   );
 };

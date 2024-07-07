@@ -40,7 +40,7 @@ const Hero = () => {
 
   const translateValue = ((100 / cutProjects.length) * (currentSlide - 1)).toFixed(2);
   return (
-    <Container sx="flex flex-col items-center">
+    <Container sx="flex flex-col items-center mb-[120px]">
       <div className="container relative overflow-hidden">
         <ul className={clsx('w-[300%] flex', `translate-x-[-${translateValue}%]`)}>
           {cutProjects.map((item) => (
