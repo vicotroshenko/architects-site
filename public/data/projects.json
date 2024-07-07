@@ -17,7 +17,7 @@
           "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/projects/1/project-1_2-mobile_2x.jpg?raw=true"
         ],
         "desktop": [
-          "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/projects/1/project-1-desctop.jpg?raw=true",
+          "/images/jpg/projects/1/project-1-desctop.jpg",
           "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/projects/1/project-1_2-desctop.jpg?raw=true"
         ],
         "desktop2x": [
@@ -44,7 +44,7 @@
           "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/projects/2/schema-project-2_2-mobile_2x.jpg?raw=true"
         ],
         "desktop": [
-          "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/projects/2/project-2-desctop.jpg?raw=true",
+         "/images/jpg/projects/2/project-2-desctop.jpg",
           "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/projects/2/project-2_2-desctop.jpg?raw=true",
           "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/projects/2/schema-project-2-desctop.jpg?raw=true",
           "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/projects/2/schema-project-2_2-desctop.jpg?raw=true"
@@ -73,6 +73,7 @@
           "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/projects/3/schema-project-3-mobile_2x.jpg?raw=true"
         ],
         "desktop": [
+          "/images/jpg/projects/3/project-3-desctop.jpg",
           "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/projects/3/project-3-desctop.jpg?raw=true",
           "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/projects/3/project-3_2-desctop.jpg?raw=true",
           "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/projects/3/schema-project-3-desctop.jpg?raw=true"
@@ -105,7 +106,7 @@
           "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/projects/4/schema-project-2-desctop.jpg?raw=true"
         ],
         "desktop2x": [
-          "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/projects/4/project-4-desctop_2x.jpg?raw=true",
+          "/images/jpg/projects/2/project-2-desctop.jpg",
           "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/projects/4/project-4_2-desctop_2x.jpg?raw=true",
           "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/projects/4/schema-project-2-desctop_2x.jpg?raw=true"
         ]
