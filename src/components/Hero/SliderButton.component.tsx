@@ -22,7 +22,7 @@ const SliderButton: React.FC<SliderButtonProps> = ({
         type="button"
         onClick={onClick}
         name={direction}
-        className="flex items-center justify-center border border-gray-f2 min-h-[53px] w-full max-w-[53px]"
+        className="flex items-center justify-center border border-gray-f2 min-h-[53px] backdrop-blur w-[53px]"
         aria-label={label}
       >
         <ArrowIcon
