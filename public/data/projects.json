@@ -101,7 +101,7 @@
           "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/projects/4/schema-project-2-mobile_2x.jpg?raw=true"
         ],
         "desktop": [
-          "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/projects/4/project-4-desctop.jpg?raw=true",
+          "/images/jpg/projects/4/project-4-desctop.jpg",
           "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/projects/4/project-4_2-desctop.jpg?raw=true",
           "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/projects/4/schema-project-2-desctop.jpg?raw=true"
         ],
@@ -128,7 +128,7 @@
           "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/projects/5/schema-project-5-mobile_2x.jpg?raw=true"
         ],
         "desktop": [
-          "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/projects/5/project-5-desctop.jpg?raw=true",
+          "/images/jpg/projects/5/project-5-desctop.jpg",
           "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/projects/5/project-5_2-desctop.jpg?raw=true",
           "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/projects/5/schema-project-5-desctop.jpg?raw=true"
         ],
@@ -155,7 +155,7 @@
           "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/projects/6/schema-project-6-mobile_2x.jpg?raw=true"
         ],
         "desktop": [
-          "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/projects/6/project-6-desctop.jpg?raw=true",
+          "/images/jpg/projects/6/project-6-desctop.jpg",
           "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/projects/6/project-6_2-desctop.jpg?raw=true",
           "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/projects/6/schema-project-6-desctop.jpg?raw=true"
         ],
@@ -182,7 +182,7 @@
           "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/projects/7/schema-project-7-mobile_2x.jpg?raw=true"
         ],
         "desktop": [
-          "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/projects/7/project-7-desctop.jpg?raw=true",
+          "/images/jpg/projects/7/project-7-desctop.jpg",
           "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/projects/7/project-7_2-desctop.jpg?raw=true",
           "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/projects/7/schema-project-7-desctop.jpg?raw=true"
         ],
@@ -209,7 +209,7 @@
           "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/projects/8/schema-project-8-mobile_2x.jpg?raw=true"
         ],
         "desktop": [
-          "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/projects/8/project-8-desctop.jpg?raw=true",
+          "/images/jpg/projects/8/project-8-desctop.jpg",
           "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/projects/8/project-8_2-desctop.jpg?raw=true",
           "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/projects/8/schema-project-8-desctop.jpg?raw=true"
         ],
@@ -236,7 +236,7 @@
           "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/projects/9/project-9_3-mobile_2x.jpg?raw=true"
         ],
         "desktop": [
-          "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/projects/9/project-9-desctop.jpg?raw=true",
+          "/images/jpg/projects/9/project-9-desctop.jpg",
           "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/projects/9/project-9_2-desctop.jpg?raw=true",
           "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/projects/9/project-9_3-desctop.jpg?raw=true"
         ],

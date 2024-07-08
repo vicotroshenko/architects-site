@@ -26,9 +26,10 @@ const SwiperBar: React.FC<SwiperBarProps> = ({ data, setSwiper }) => {
       }}
       pagination={true}
       onSwiper={(swiper) => setSwiper(swiper)}
+      wrapperTag='ul'
     >
       {data.map((item) => (
-        <SwiperSlide key={nanoid()}>
+        <SwiperSlide key={nanoid()} tag='li'>
           <div className="w-full h-full min-h-[829px] flex gap-[122px] justify-between items-center">
             <div className="max-lg:absolute top-4 left-4 z-10 mb-[90px]">
               <Title>{item.title}</Title>
