@@ -1,5 +1,6 @@
 import type { Config } from 'tailwindcss';
 
+
 const config: Config = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -50,12 +51,14 @@ const config: Config = {
         'gray-c8': '#C8C8C8',
         'gray-bd': '#BDBDBD',
         'gray-dark': '#8D8D8D',
+        't-black': 'rgba(44,44,44, 0.85)',
       },
       margin: {
         '120px': '120px',
       },
       boxShadow: {
-        '3xl': '0 1px 1px rgba(0, 0, 0, 0.25), 0 2px 8px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 1px rgba(255, 255, 255, 0.1)', 
+        '3xl':
+          '0 1px 1px rgba(0, 0, 0, 0.25), 0 2px 8px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 1px rgba(255, 255, 255, 0.1)',
       },
       keyframes: {
         wider: {
