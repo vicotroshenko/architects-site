@@ -38,7 +38,7 @@ const Hero = () => {
   };
 
   return (
-    <Container sx="flex flex-col items-center mb-[120px]">
+    <Container sx="flex flex-col items-center mb-[120px] max-md:max-h-[600px]">
       <div className="container w-full relative overflow-hidden">
         <SwiperBar
           setSwiper={setSwiperConfig}

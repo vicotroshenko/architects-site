@@ -33,7 +33,7 @@ const ProjectsCard: React.FC<ProjectsCardProps> = ({ index, image, alt }) => {
           { hidden: index !== 0 }
         )}
       >
-        <p className="w-min text-5xl text-white font-bold mb-2">
+        <p className="w-min text-5xl text-white font-bold mb-2 max-lg:text-2xl">
           Sample Project
         </p>
         <div className="flex gap-x-5 items-center">

@@ -28,7 +28,7 @@ const FooterContacts: React.FC<FooterContactsProps> = ({ contacts }) => {
   };
 
   return (
-    <ul className="flex flex-col justify-between h-4/5">
+    <ul className="flex flex-col justify-between lg:h-4/5">
       {contacts.map(({ address, icon }, index) => (
         <li
           key={nanoid()}

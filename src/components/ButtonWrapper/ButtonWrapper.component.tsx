@@ -10,18 +10,21 @@ interface ButtonWrapper {
   children: React.ReactNode;
   arrow?: boolean;
   style?: keyof typeof ButtonStyle;
+  wrapperClassName?: string;
 }
 
 const ButtonWrapper: React.FC<ButtonWrapper> = ({
   children,
   style = 'DARK',
+  wrapperClassName = '',
 }) => {
   return (
     <div
       className={clsx(
         'min-h-[71px] max-w-[222px] flex items-center justify-center gap-1 text-xs cursor-pointer',
-				'focus-within:shadow-3xl hover:shadow-3xl transition-all',
-        ButtonStyle[style]
+        'focus-within:shadow-3xl hover:shadow-3xl transition-all',
+        ButtonStyle[style],
+        wrapperClassName
       )}
     >
       {children}
