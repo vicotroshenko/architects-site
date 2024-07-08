@@ -15,7 +15,7 @@ const Footer = () => {
 
   return (
     <footer className="min-h-[417px] bg-black-2c text-white">
-      <Container sx="flex w-full justify-between pt-[58px] pb-[60px]">
+      <div className="container m-auto flex flex-wrap justify-center gap-10 w-full lg:justify-between pt-[58px] pb-[60px]">
         <Link
           href="/"
           className="text-inherit"
@@ -34,7 +34,7 @@ const Footer = () => {
         <FooterLinksContainer title={media.title}>
           <FooterLinksSM media={media.links} />
         </FooterLinksContainer>
-      </Container>
+      </div>
     </footer>
   );
 };

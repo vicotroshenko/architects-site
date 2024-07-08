@@ -7,7 +7,7 @@ interface ContainerProps {
 
 const Container: React.FC<ContainerProps> = ({ children, sx }) => {
   return (
-    <section className={clsx(['mx-auto w-full', sx])}>{children}</section>
+    <section className={clsx(['mx-auto w-full max-md:px-2', sx])}>{children}</section>
   );
 };
 
