@@ -11,9 +11,9 @@
     "button": "send email"
   },
   "pictures": {
-    "mobile": "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/contacts-mobile.jpg?raw=true",
-    "mobile2x": "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/contacts-mobile_2x.jpg?raw=true",
-    "desktop": "/images/jpg/contacts-desctop.jpg",
-    "desktop2x": "https://github.com/vicotroshenko/architects-site/blob/main/src/img/jpg/contacts-desctop_2x.jpg?raw=true"
+    "mobile": "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/contacts-mobile.jpg?raw=true",
+    "mobile2x": "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/contacts-mobile_2x.jpg?raw=true",
+    "desktop": "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/contacts-desctop.jpg?raw=true",
+    "desktop2x": "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/contacts-desctop_2x.jpg?raw=true"
   }
 }
