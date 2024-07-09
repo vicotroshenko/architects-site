@@ -1,16 +1,16 @@
-import { Direction } from '@/constants/sliderButton.constant';
+import { Direction } from '@/constants/swiperButton.constant';
 import clsx from 'clsx';
 import React from 'react';
 
 import ArrowIcon from '../ArrowIcon/ArrowIcon.component';
 
-interface SliderButtonProps {
+interface SwiperButtonProps {
   onClick: (e: React.MouseEvent) => void;
   direction: keyof typeof Direction;
   label?: string;
 }
 
-const SliderButton: React.FC<SliderButtonProps> = ({
+const SwiperButton: React.FC<SwiperButtonProps> = ({
   onClick,
   direction,
   label = 'arrow button',
@@ -35,4 +35,4 @@ const SliderButton: React.FC<SliderButtonProps> = ({
   );
 };
 
-export default SliderButton;
+export default SwiperButton;

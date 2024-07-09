@@ -2,6 +2,12 @@
 const nextConfig = {
   images: {
     deviceSizes: [768, 1170],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**',
+      },
+    ],
   },
   webpack(config) {
     const fileLoaderRule = config.module.rules.find((rule) =>
