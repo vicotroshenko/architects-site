@@ -1,14 +1,17 @@
 'use client';
 
-import { Direction } from '@/constants/sliderButton.constant';
+import { Direction } from '@/constants/swiperButton.constant';
 import { useState } from 'react';
 import { SwiperClass } from 'swiper/react';
+
+
 
 import PROJECTS from '../../../public/data/projects.json';
 import Container from '../Container/Container.component';
 import CarrouselItem from './CarrouselItem.component';
-import SliderButton from './SliderButton.component';
 import SwiperBar from './SwiperBar.component';
+import SwiperButton from './SwiperButton.component';
+
 
 const Hero = () => {
   const [swiperConfig, setSwiperConfig] = useState<SwiperClass>();
@@ -46,12 +49,12 @@ const Hero = () => {
         />
         <div className="absolute bottom-[83px] left-4 lg:left-0 z-10 max-lg:p-3 ">
           <div className="flex gap-[22px] mb-[90px]">
-            <SliderButton
+            <SwiperButton
               onClick={handleSliderClick}
               direction={Direction.LEFT}
               label="prev slider button"
             />
-            <SliderButton
+            <SwiperButton
               onClick={handleSliderClick}
               direction={Direction.RIGHT}
               label="next slider button"

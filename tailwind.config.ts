@@ -17,6 +17,7 @@ const config: Config = {
       xs: ['12px', { lineHeight: '1' }],
       sm: ['14px', { lineHeight: '1' }],
       base: ['16px', { lineHeight: '1' }],
+      base2: ['18px', { lineHeight: '1' }],
       lg: ['22px', { lineHeight: '1' }],
       xl: ['24px', { lineHeight: '1' }],
       '2xl': ['40px', { lineHeight: '2rem' }],
@@ -71,6 +72,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/line-clamp')],
 };
 export default config;
