@@ -9,7 +9,7 @@ import CONTENT from '../../../public/data/gallery.json';
 import Container from '../Container/Container.component';
 import CarrouselItem from '../Hero/CarrouselItem.component';
 import SwiperButton from '../Hero/SwiperButton.component';
-import Title from '../Title/Title.component';
+import PageWrapper from '../PageWrapper/PageWrapper.component';
 
 const getShowedPages = (
   data: typeof CONTENT,
@@ -69,14 +69,15 @@ const GalleryList = () => {
     };
     slideActions[name]();
   };
+
   return (
     <Container>
       <div className="container m-auto pt-[63px] pb-[104px]">
-        <div>
-          <Title>Photo</Title>
-          <p className="font-bold text-5xl mb-[30px]">Gallery</p>
-        </div>
-        <ul className="flex gap-[30px] flex-wrap justify-center md:justify-start pt-[30px] pb-[60px] border-t border-gray-f2">
+        <PageWrapper
+          title="photo"
+          underTitle="Gallery"
+          wrapperClassName="flex gap-[30px] flex-wrap justify-center md:justify-start pt-[30px] pb-[60px] border-t border-gray-f2"
+        >
           {pageElements?.map((pic) => (
             <li
               className="relative w-full max-w-[210px] min-h-[260px]"
@@ -91,7 +92,7 @@ const GalleryList = () => {
               />
             </li>
           ))}
-        </ul>
+        </PageWrapper>
 
         <div className="flex flex-row-reverse gap-5 justify-center sm:justify-end items-center flex-wrap">
           <div className="flex gap-5">

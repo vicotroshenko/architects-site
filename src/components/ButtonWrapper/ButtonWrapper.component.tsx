@@ -22,7 +22,7 @@ const ButtonWrapper: React.FC<ButtonWrapper> = ({
     <div
       className={clsx(
         'min-h-[71px] max-w-[222px] flex items-center justify-center gap-1 text-xs cursor-pointer',
-        'focus-within:shadow-3xl hover:shadow-3xl transition-all',
+        'focus-within:shadow-3xl hover:shadow-3xl transition-all uppercase',
         ButtonStyle[style],
         wrapperClassName
       )}
