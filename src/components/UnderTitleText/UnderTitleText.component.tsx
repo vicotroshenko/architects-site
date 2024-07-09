@@ -11,7 +11,7 @@ const UnderTitleText: React.FC<UnderTitleTextProps> = ({
 }) => {
   return (
     <>
-      <p className={clsx('font-bold text-5xl capitalize', wrapperClassName)}>
+      <p className={clsx('font-bold text-2xl lg:text-5xl capitalize', wrapperClassName)}>
         {children}
       </p>
     </>
