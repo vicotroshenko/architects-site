@@ -6,15 +6,15 @@
   },
   "pictures": [
     {
-      "a_1": "/images/jpg/about-1-desctop_1170px.jpg",
+      "a_1": "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/about-1-desctop_1170px.jpg?raw=true",
       "a_1_m": "/images/jpg/about-1-mobile_768px.jpg"
     },
     {
-      "a_1": "/images/jpg/about-2-desctop.jpg",
+      "a_1": "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/about-2-desctop.jpg?raw=true",
       "a_1_m": "/images/jpg/about-2-mobile.jpg"
     },
     {
-      "a_1": "/images/jpg/about-3-desctop.jpg",
+      "a_1": "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/about-3-desctop.jpg?raw=true",
       "a_1_m": "/images/jpg/about-3-mobile.jpg"
     }
   ]
