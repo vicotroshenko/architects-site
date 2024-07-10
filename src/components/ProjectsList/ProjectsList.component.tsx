@@ -40,7 +40,7 @@ const ProjectsList = () => {
                 </p>
                 <ButtonWrapper style="LIGHT">
                   <Link
-                    href={`projects/${project.id}}`}
+                    href={`projects/`+ project.id}
                     className="h-[71px] flex items-center justify-center gap-2"
                   >
                     <span>{text.moreButton}</span>

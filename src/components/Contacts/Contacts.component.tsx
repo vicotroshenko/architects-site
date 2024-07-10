@@ -6,6 +6,8 @@ import { yupResolver } from '@hookform/resolvers/yup';
 import Image from 'next/image';
 import React from 'react';
 import { useForm } from 'react-hook-form';
+import { Bounce, ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 import CONTENT from '../../../public/data/contacts.json';
 import ButtonWrapper from '../ButtonWrapper/ButtonWrapper.component';
@@ -28,8 +30,17 @@ const Contacts = () => {
   });
 
   const onSubmit = (data: ContactsForm) => {
-    console.log('log submit');
-    console.log(data);
+    toast.success('We will contact with you soon!', {
+      position: 'top-center',
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: 'colored',
+      transition: Bounce,
+    });
   };
   return (
     <Container sx="container pb-[120px]">
@@ -63,12 +74,14 @@ const Contacts = () => {
             control={control}
             placeholder="Interested In"
           />
-          <TextArea
-            control={control}
-            name="message"
-            placeholder="Message*"
-            wrapperClassName="mb-[77px] resize-none"
-          />
+          <div className="mb-[77px]">
+            <TextArea
+              control={control}
+              name="message"
+              placeholder="Message*"
+              wrapperClassName="resize-none"
+            />
+          </div>
           <ButtonWrapper wrapperClassName="max-lg:m-auto">
             <button
               type="submit"
@@ -86,6 +99,7 @@ const Contacts = () => {
           />
         </div>
       </div>
+      <ToastContainer />
     </Container>
   );
 };
