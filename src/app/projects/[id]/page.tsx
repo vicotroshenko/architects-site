@@ -17,7 +17,7 @@ export  function generateStaticParams() {
 	}]
 }
 
-const ProjectById: React.FC<ProjectByIdProps> = ({ params }) => {
+const ProjectsId: React.FC<ProjectByIdProps> = ({ params }) => {
   return (
     <>
       <Project id={params.id} />
@@ -25,4 +25,4 @@ const ProjectById: React.FC<ProjectByIdProps> = ({ params }) => {
   );
 };
 
-export default ProjectById;
+export default ProjectsId;
