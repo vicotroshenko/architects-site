@@ -1,12 +1,16 @@
-import Project from '@/components/Project/Project.component'
-import React from 'react'
+import Project from '@/components/Project/Project.component';
+import React from 'react';
 
-const ProjectById = () => {
-	return (
-		<>
-			<Project />
-		</>
-	)
+interface ProjectByIdProps {
+  params: { id: string };
 }
 
-export default ProjectById
+const ProjectById: React.FC<ProjectByIdProps> = ({ params }) => {
+  return (
+    <>
+      <Project id={params.id} />
+    </>
+  );
+};
+
+export default ProjectById;
