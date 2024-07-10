@@ -11,6 +11,8 @@ import {
   useController,
 } from 'react-hook-form';
 
+import ErrorText from './ErrorText.component';
+
 type TPath = FieldPathByValue<FieldValues, unknown | null | undefined>;
 
 type FieldProps = {
@@ -41,7 +43,7 @@ const Field: React.FC<FieldProps> = ({
           wrapperClassName
         )}
       />
-      {fieldState.invalid && <span>error massage</span>}
+      {fieldState.invalid && <ErrorText error={fieldState.error?.message} />}
     </>
   );
 };

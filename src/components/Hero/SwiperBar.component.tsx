@@ -13,9 +13,14 @@ import Title from '../Title/Title.component';
 interface SwiperBarProps {
   data: swiperHero;
   setSwiper: Dispatch<SwiperClass>;
+  onSlideChange?: (swiper: SwiperClass) => void;
 }
 
-const SwiperBar: React.FC<SwiperBarProps> = ({ data, setSwiper }) => {
+const SwiperBar: React.FC<SwiperBarProps> = ({
+  data,
+  setSwiper,
+  onSlideChange,
+}) => {
   return (
     <Swiper
       spaceBetween={0}
@@ -27,6 +32,7 @@ const SwiperBar: React.FC<SwiperBarProps> = ({ data, setSwiper }) => {
       pagination={true}
       onSwiper={(swiper) => setSwiper(swiper)}
       wrapperTag="ul"
+      onSlideChange={onSlideChange}
     >
       {data.map((item) => (
         <SwiperSlide
