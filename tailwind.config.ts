@@ -1,5 +1,6 @@
 import type { Config } from 'tailwindcss';
 
+
 const config: Config = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -44,6 +45,7 @@ const config: Config = {
         transparent: 'transparent',
         current: 'currentColor',
         white: '#ffffff',
+        't-white': 'rgba(255, 255, 255, 0.7)',
         'black-33': '#333333',
         'black-2c': '#2C2C2C',
         'gray-f2': '#F2F2F2',
@@ -68,9 +70,19 @@ const config: Config = {
           '0%': { width: '0%' },
           '100%': { width: '100%' },
         },
+        showUp: {
+          '0%': { display: 'none', transform: 'translateY(-100%)', opacity: '0' },
+          '100%': { display: 'block', transform: 'translateY(0)', opacity: '1' },
+        },
+        showOff: {
+          '0%': { display: 'block' },
+          '100%': { display: 'none' },
+        },
       },
       animation: {
         'gradually-width': 'wider .3s linear',
+        'show-up': 'showUp 0.3s linear',
+        'show-off': 'showOff 0.3s linear',
       },
     },
   },
