@@ -58,8 +58,11 @@ const config: Config = {
         '120px': '120px',
       },
       boxShadow: {
+        '2xl-inner': '-12px -8px 40px rgba(255,0,0,0.12) inset;',
         '3xl':
-          '0 1px 1px rgba(0, 0, 0, 0.25), 0 2px 8px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 1px rgba(255, 255, 255, 0.1)',
+          '0 1px 1px rgba(0, 0, 0, 0.25), 0 2px 8px rgba(0, 0, 0, 0.25), inset -12px -8px 40px rgba(255, 255, 255, 0.25)',
+        '3xl-dark':
+          '0 1px 1px rgba(0, 0, 0, 0.25), 0 2px 8px rgba(0, 0, 0, 0.25), inset -12px -8px 40px rgba(0, 0, 0, 0.1)',
       },
       keyframes: {
         wider: {

@@ -22,7 +22,7 @@ const SwiperButton: React.FC<SwiperButtonProps> = ({
         type="button"
         onClick={onClick}
         name={direction}
-        className="flex items-center justify-center border border-gray-f2 min-h-[53px] backdrop-blur w-[53px]"
+        className="flex items-center justify-center border border-gray-f2 min-h-[53px] backdrop-blur w-[53px] hover:shadow-3xl-dark"
         aria-label={label}
       >
         <ArrowIcon
