@@ -13,11 +13,11 @@ const HeaderNav: React.FC<HeaderNavProps> = ({ links, navClassName }) => {
   return (
     <nav
       className={clsx(
-        'max-lg:max-w-[200px] w-full lg:w-[55.5%] lg:block',
+        'flex justify-center items-center h-full lg:w-[55.5%] lg:block max-lg:p-4',
         navClassName
       )}
     >
-      <ul className="flex justify-between max-lg:flex-col flex-wrap max-lg:gap-2 w-full">
+      <ul className="flex justify-between max-lg:flex-col max-lg:max-w-[200px] flex-wrap max-lg:gap-2 h-full w-full">
         {links.map((item, index) => (
           <HeaderLink
             link={item}
