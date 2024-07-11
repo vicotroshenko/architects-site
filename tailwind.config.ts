@@ -72,6 +72,7 @@ const config: Config = {
         },
         showUp: {
           '0%': { display: 'none', transform: 'translateY(-100%)', opacity: '0' },
+          '30%': { display: 'block', transform: 'translateY(-100%)', opacity: '0' },
           '100%': { display: 'block', transform: 'translateY(0)', opacity: '1' },
         },
         showOff: {
