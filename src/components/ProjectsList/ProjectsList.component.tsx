@@ -1,7 +1,10 @@
+'use client'
+import { getProjects } from '@/service/projects';
+import { ProjectsType } from '@/types/projects.type';
 import { nanoid } from 'nanoid';
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 import CONTENT from '../../../public/data/projects.json';
 import ArrowIcon from '../ArrowIcon/ArrowIcon.component';
@@ -10,7 +13,14 @@ import Container from '../Container/Container.component';
 import PageWrapper from '../PageWrapper/PageWrapper.component';
 
 const ProjectsList = () => {
-  const { text, projects } = CONTENT;
+  const [projects, setProjects] = useState<ProjectsType[] | null>(null);
+  useEffect(() => {
+    (async () => {
+      const data = await getProjects();
+      setProjects(data);
+    })();
+  }, []);
+  const { text } = CONTENT;
   return (
     <Container>
       <div className="container m-auto">
@@ -19,7 +29,7 @@ const ProjectsList = () => {
           underTitle={text.title.split(' ')[1]}
           wrapperClassName="flex flex-col gap-y-[60px] pt-[30px] pb-[60px] border-t border-gray-f2"
         >
-          {projects.map((project) => (
+          {projects?.map((project) => (
             <li
               key={nanoid()}
               className="flex flex-wrap bg-gray-f3"
@@ -40,7 +50,7 @@ const ProjectsList = () => {
                 </p>
                 <ButtonWrapper style="LIGHT">
                   <Link
-                    href={`projects/`+ project.id}
+                    href={`projects/` + project.id}
                     className="h-[71px] flex items-center justify-center gap-2"
                   >
                     <span>{text.moreButton}</span>
