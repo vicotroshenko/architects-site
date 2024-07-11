@@ -4,17 +4,14 @@ import { Direction } from '@/constants/swiperButton.constant';
 import { nanoid } from 'nanoid';
 import Image from 'next/image';
 import React, { useCallback, useEffect, useRef, useState } from 'react';
-import { Lightbox } from "yet-another-react-lightbox";
-import "yet-another-react-lightbox/styles.css";
-
-
+import { Lightbox } from 'yet-another-react-lightbox';
+import 'yet-another-react-lightbox/styles.css';
 
 import CONTENT from '../../../public/data/gallery.json';
 import Container from '../Container/Container.component';
 import CarrouselItem from '../Hero/CarrouselItem.component';
 import SwiperButton from '../Hero/SwiperButton.component';
 import PageWrapper from '../PageWrapper/PageWrapper.component';
-
 
 const getShowedPages = (
   data: typeof CONTENT,
@@ -35,7 +32,7 @@ const GalleryList = () => {
     itemEnd: amountOnPage,
   });
 
-  const currentIndex = useRef(1)
+  const currentIndex = useRef(1);
 
   const getCollection = useCallback(() => {
     const result = getShowedPages(
@@ -76,9 +73,14 @@ const GalleryList = () => {
       },
     };
     slideActions[name]();
+    window.scrollTo({
+      top: 102,
+      left: 0,
+      behavior: 'smooth',
+    });
   };
 
-  const picsFull = pageElements?.map(item => ({src: item.full}));
+  const picsFull = pageElements?.map((item) => ({ src: item.full }));
 
   const handleOpenPic = (e: React.MouseEvent<HTMLElement>) => {
     setToggler(true);
@@ -86,7 +88,7 @@ const GalleryList = () => {
       (pic) => pic.id === e.currentTarget.dataset.id
     ) as number;
 
-    if(findIndex !== -1){
+    if (findIndex !== -1) {
       currentIndex.current = findIndex;
     }
   };
@@ -95,11 +97,11 @@ const GalleryList = () => {
     <Container>
       <div className="container m-auto pt-[63px] pb-[104px]">
         <Lightbox
-				open={toggler}
-        index={currentIndex.current}
-        close={() => setToggler(false)}
-				slides={picsFull}
-			/>
+          open={toggler}
+          index={currentIndex.current}
+          close={() => setToggler(false)}
+          slides={picsFull}
+        />
         <PageWrapper
           title="photo"
           underTitle="Gallery"
