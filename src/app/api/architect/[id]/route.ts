@@ -1,5 +1,16 @@
 import Architect from '@/models/architect';
+import { ProjectsType } from '@/types/projects.type';
 import { connectToDB } from '@/utils/database';
+
+
+export async function generateStaticParams() {
+  const posts = await fetch('/api/architect').then((res) => res.json());
+
+  return posts.map((post: ProjectsType) => ({
+    id: post.id,
+  }));
+}
+
 
 interface Params {
   params: {

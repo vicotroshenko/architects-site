@@ -6,7 +6,6 @@ export const GET = async () => {
     await connectToDB();
 
     const prompts = await Architect.find();
-    console.log('prompts: ', prompts);
 
     return new Response(JSON.stringify(prompts), { status: 200 });
   } catch (error) {
