@@ -1,12 +1,13 @@
 import Image from 'next/image';
 import {
+  Slide,
   isImageFitCover,
   isImageSlide,
   useLightboxProps,
   useLightboxState,
 } from 'yet-another-react-lightbox';
 
-function isNextJsImage(slide) {
+function isNextJsImage(slide: Slide) {
   return (
     isImageSlide(slide) &&
     typeof slide.width === 'number' &&
@@ -14,7 +15,15 @@ function isNextJsImage(slide) {
   );
 }
 
-export default function NextJsImage({ slide, offset, rect }) {
+export default function NextJsImage({
+  slide,
+  offset,
+  rect,
+}: {
+  slide: any;
+  offset: any;
+  rect: any;
+}) {
   const {
     on: { click },
     carousel: { imageFit },
