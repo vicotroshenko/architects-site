@@ -3,9 +3,14 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
+enum Colors {
+  black = 'black',
+  white = 'white'
+}
+
 interface HeaderLinkProps {
   link: string;
-  color: 'black' | 'white';
+  color: keyof typeof Colors;
 }
 
 const HeaderLink: React.FC<HeaderLinkProps> = ({ link, color }) => {
@@ -14,7 +19,7 @@ const HeaderLink: React.FC<HeaderLinkProps> = ({ link, color }) => {
   const pathnameClear =
     pathname !== '/' ? pathname.slice(1, pathname.length) : 'main';
 
-  const definedColor = color === 'black' ? 'text-black-33' : 'text-white';
+  const definedColor = color === Colors.black ? 'text-black-33' : 'text-white';
 
   return (
     <li className="relative">
