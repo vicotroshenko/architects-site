@@ -1,5 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  experimental: {
+    appDir: true,
+    serverComponentsExternalPackages: ['mongoose'],
+  },
   images: {
     deviceSizes: [768, 1170],
     remotePatterns: [
