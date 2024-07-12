@@ -1,3 +1,5 @@
+import { HttpMessages } from '@/constants/HttpMessages.constants';
+import { HttpStatusCode } from '@/constants/HttpStatusCode.constant';
 import Architect from '@/models/architect';
 import { connectToDB } from '@/utils/database';
 
@@ -6,10 +8,11 @@ export const GET = async () => {
     await connectToDB();
 
     const prompts = await Architect.find();
-    console.log('prompts: ', prompts);
 
-    return new Response(JSON.stringify(prompts), { status: 200 });
+    return new Response(JSON.stringify(prompts), { status: HttpStatusCode.Ok });
   } catch (error) {
-    return new Response('Failed to fetch all prompts', { status: 500 });
+    return new Response(HttpMessages.InternalServerError, {
+      status: HttpStatusCode.InternalServerError,
+    });
   }
 };

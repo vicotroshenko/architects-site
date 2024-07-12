@@ -1,11 +1,15 @@
+import { HTTP } from "@/constants/service.constant";
+
 export const getProjects = async () => {
-  const res = await fetch('api/architect');
+  const url = HTTP.HOST + HTTP.PROJECT_PATH;
+  const res = await fetch(url);
   const data = await res.json();
   return data;
 };
 
 export const getProjectById = async (id: string) => {
-  const res = await fetch(`api/architect/${id}}`);
+  const url = HTTP.HOST + HTTP.PROJECT_PATH + id;
+  const res = await fetch(url);
   const data = await res.json();
   return data;
 };

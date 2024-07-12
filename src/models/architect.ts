@@ -1,7 +1,10 @@
-import { Schema, model, models } from 'mongoose';
+import { Schema, Types, model, models } from 'mongoose';
 
 
 const ArchitectSchema = new Schema({
+  _id: {
+    type: Types.ObjectId,
+  },
   images: {
     type: Object,
   },
@@ -10,10 +13,7 @@ const ArchitectSchema = new Schema({
   },
   description: {
     type: String,
-  },
-  id: {
-    type: String,
-  },
+  }
 });
 
 const Architect = models.Architect || model('Architect', ArchitectSchema);
