@@ -1,4 +1,5 @@
-'use client'
+'use client';
+
 import { getProjects } from '@/service/projects';
 import { ProjectsType } from '@/types/projects.type';
 import { nanoid } from 'nanoid';
@@ -14,12 +15,21 @@ import PageWrapper from '../PageWrapper/PageWrapper.component';
 
 const ProjectsList = () => {
   const [projects, setProjects] = useState<ProjectsType[] | null>(null);
+
   useEffect(() => {
+    if (projects) return;
+
     (async () => {
       const data = await getProjects();
       setProjects(data);
     })();
+    window.scrollTo({
+      top: 102,
+      left: 0,
+      behavior: 'smooth',
+    });
   }, []);
+
   const { text } = CONTENT;
   return (
     <Container>
@@ -34,7 +44,7 @@ const ProjectsList = () => {
               key={nanoid()}
               className="flex flex-wrap bg-gray-f3"
             >
-              <div className="relative w-full lg:w-[57%] min-h-[435px]">
+              <div className="relative w-full lg:w-[57%] max-h-[435px] before:content-[''] before:block before:pb-[100%] before:h-full">
                 <Image
                   src={project.images.desktop[0]}
                   fill
@@ -50,7 +60,7 @@ const ProjectsList = () => {
                 </p>
                 <ButtonWrapper style="LIGHT">
                   <Link
-                    href={`projects/` + project.id}
+                    href={`projects/` + project._id}
                     className="h-[71px] flex items-center justify-center gap-2"
                   >
                     <span>{text.moreButton}</span>
