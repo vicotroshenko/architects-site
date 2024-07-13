@@ -39,16 +39,17 @@ const SwiperBar: React.FC<SwiperBarProps> = ({
           key={nanoid()}
           tag="li"
         >
-          <div className="w-full h-full max-md:min-h-[600px] md:min-h-[829px] flex gap-[122px] justify-between items-center">
+          <div className="w-full h-full max-md:min-h-[450px] md:min-h-[829px] flex gap-[122px] justify-between items-center">
             <div className="max-lg:absolute top-4 left-4 z-10 mb-[90px]">
               <Title>{item.title}</Title>
               <SubTitle>{item.description.slice(0, 5)}</SubTitle>
             </div>
-            <div className="absolute max-lg:inset-0 lg:relative w-full h-full lg:max-w-[770px] md:max-h-[928px] lg:h-screen">
+            <div className="absolute max-lg:inset-0 lg:relative w-full h-full lg:max-w-[770px] md:max-h-[928px] lg:h-screen overflow-hidden">
               <Image
                 src={item.images.desktop[0]}
                 fill
                 alt={item.title}
+                className="animate-hero-scale"
               />
             </div>
           </div>

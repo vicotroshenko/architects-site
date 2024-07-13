@@ -20,7 +20,7 @@ const Footer = () => {
           href="/"
           className="text-inherit"
         >
-          <Logo sx="w-[145px] h-[94px] fill-white" />
+          <Logo sx="fill-white" />
         </Link>
 
         <FooterLinksContainer title={information.title}>

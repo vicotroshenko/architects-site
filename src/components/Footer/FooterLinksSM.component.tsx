@@ -15,6 +15,7 @@ const FooterLinksSM: React.FC<FooterLinksSMProps> = ({ media }) => {
             href={link}
             target="_blank"
             rel="noopener noreferrer nofollow"
+            className="rounded-full w-[40px] h-[40px] centerItems hover:shadow-2xl-inner-white focus:shadow-2xl-inner-white transition duration-300"
           >
             <Image
               src={logo}

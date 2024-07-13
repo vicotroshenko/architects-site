@@ -1,8 +1,10 @@
 'use client';
 
+import useClickOutside from '@/hooks/useClickOutside.hook';
+import { useGlobalStore } from '@/store/global.store';
 import clsx from 'clsx';
 import Link from 'next/link';
-import React, { useState } from 'react';
+import React, { useRef } from 'react';
 import { RxHamburgerMenu } from 'react-icons/rx';
 import { RxCross1 } from 'react-icons/rx';
 
@@ -11,8 +13,15 @@ import Logo from '../Logo/Logo.component';
 import HeaderNav from './HeaderNav.component';
 
 const Header = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const openDropdown = (): void => setIsOpen((prev) => !prev);
+  const setOpen = useGlobalStore((state) => state.setModal);
+  const closeModal = useGlobalStore((state) => state.closeModal);
+  const isOpen = useGlobalStore((state) => state.isOpen);
+
+  const openDropdown = (e: React.MouseEvent<HTMLButtonElement>): void =>
+    setOpen();
+
+  const wrapperRef = useRef<HTMLDivElement>(null);
+  useClickOutside(wrapperRef, () => closeModal());
 
   return (
     <>
@@ -49,6 +58,7 @@ const Header = () => {
         </div>
       </header>
       <div
+        ref={wrapperRef}
         className={clsx(
           'absolute top-[102px] right-0 w-full bg-t-white shadow p-2 z-10',
           'md:max-w-[300px] max-md:h-[200px] md:min-h-[300px]',

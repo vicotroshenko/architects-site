@@ -1,6 +1,5 @@
 import type { Config } from 'tailwindcss';
 
-
 const config: Config = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -60,6 +59,7 @@ const config: Config = {
       },
       boxShadow: {
         '2xl-inner': '-12px -8px 40px rgba(255,0,0,0.12) inset;',
+        '2xl-inner-white': '-12px -8px 40px rgba(255,255,255,0.12) inset;',
         '3xl':
           '0 1px 1px rgba(0, 0, 0, 0.25), 0 2px 8px rgba(0, 0, 0, 0.25), inset -12px -8px 40px rgba(255, 255, 255, 0.25)',
         '3xl-dark':
@@ -71,19 +71,37 @@ const config: Config = {
           '100%': { width: '100%' },
         },
         showUp: {
-          '0%': { display: 'none', transform: 'translateY(-100%)', opacity: '0' },
-          '30%': { display: 'block', transform: 'translateY(-100%)', opacity: '0' },
-          '100%': { display: 'block', transform: 'translateY(0)', opacity: '1' },
+          '0%': {
+            display: 'none',
+            transform: 'translateY(-100%)',
+            opacity: '0',
+          },
+          '30%': {
+            display: 'block',
+            transform: 'translateY(-100%)',
+            opacity: '0',
+          },
+          '100%': {
+            display: 'block',
+            transform: 'translateY(0)',
+            opacity: '1',
+          },
         },
         showOff: {
           '0%': { display: 'block' },
           '100%': { display: 'none' },
+        },
+        heroImages: {
+          '0%': { transform: 'scale(1)' },
+          '50%': { transform: 'scale(1.25)' },
+          '100%': { transform: 'scale(1)' },
         },
       },
       animation: {
         'gradually-width': 'wider .3s linear',
         'show-up': 'showUp 0.3s linear',
         'show-off': 'showOff 0.3s linear',
+        'hero-scale': 'heroImages 20s infinite linear',
       },
     },
   },

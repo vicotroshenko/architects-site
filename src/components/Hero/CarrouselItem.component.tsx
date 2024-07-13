@@ -1,7 +1,6 @@
 import React from 'react';
 import { BsSlashLg } from 'react-icons/bs';
 
-
 interface CarrouselItemProps {
   itemAmount: number;
   itemCurrent?: number;

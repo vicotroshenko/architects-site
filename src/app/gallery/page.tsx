@@ -1,12 +1,12 @@
-import GalleryList from '@/components/GalleryList/GalleryList.component'
-import React from 'react'
+import GalleryList from '@/components/GalleryList/GalleryList.component';
+import React from 'react';
 
 const Gallery = () => {
-	return (
-		<>
-			<GalleryList />
-		</>
-	)
-}
+  return (
+    <>
+      <GalleryList />
+    </>
+  );
+};
 
-export default Gallery
+export default Gallery;

@@ -1,6 +1,5 @@
 import { Schema, Types, model, models } from 'mongoose';
 
-
 const ArchitectSchema = new Schema({
   _id: {
     type: Types.ObjectId,
@@ -13,7 +12,7 @@ const ArchitectSchema = new Schema({
   },
   description: {
     type: String,
-  }
+  },
 });
 
 const Architect = models.Architect || model('Architect', ArchitectSchema);

@@ -1,11 +1,13 @@
 'use client';
 
 import { getProjectById } from '@/service/projects';
+import { useGlobalStore } from '@/store/global.store';
 import { ProjectsType } from '@/types/projects.type';
 import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
 
 import Container from '../Container/Container.component';
+import Loader from '../Loader/Loader.component';
 import Title from '../Title/Title.component';
 import ProjectsSwiper from './ProjectsSwiper.component';
 
@@ -14,16 +16,17 @@ interface ProjectProps {
 }
 
 const Project: React.FC<ProjectProps> = ({ id }) => {
-  const [project, setProject] = useState<ProjectsType | null>(null);
-  useEffect(() => {
-    if (project) return;
+  const getProject = useGlobalStore((state) => state.getProject);
+  const project = useGlobalStore((state) => state.project);
+  const isLoading = useGlobalStore((state) => state.isLoading);
 
-    (async () => {
-      const data = await getProjectById(id);
-      setProject(data);
-    })();
-  }, [id, project]);
-  console.log(project);
+  useEffect(() => {
+    if (!project || project?._id !== id) {
+      getProject(id);
+    }
+  }, [id, project, getProject]);
+
+  if (isLoading) return <Loader />;
   return (
     <Container>
       {project && (
@@ -43,9 +46,7 @@ const Project: React.FC<ProjectProps> = ({ id }) => {
           <div className="mb-[30px]">
             <p className="text-base leading-snug">{project?.description}</p>
           </div>
-          <ProjectsSwiper
-            images={project.images.desktop}
-          />
+          <ProjectsSwiper images={project.images.desktop} />
         </div>
       )}
     </Container>

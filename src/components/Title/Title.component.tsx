@@ -6,9 +6,11 @@ interface TitleProps {
   wrapperClassName?: string;
 }
 
-const Title: React.FC<TitleProps> = ({ children, wrapperClassName='' }) => {
+const Title: React.FC<TitleProps> = ({ children, wrapperClassName = '' }) => {
   return (
-    <h2 className={clsx('mb-5 capitalize max-lg:text-2xl', wrapperClassName)}>{children}</h2>
+    <h2 className={clsx('mb-5 capitalize max-lg:text-2xl', wrapperClassName)}>
+      {children}
+    </h2>
   );
 };
 

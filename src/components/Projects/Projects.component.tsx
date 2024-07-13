@@ -1,7 +1,6 @@
 'use client';
 
-import { getProjects } from '@/service/projects';
-import { ProjectsType } from '@/types/projects.type';
+import { useGlobalStore } from '@/store/global.store';
 import { nanoid } from 'nanoid';
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
@@ -13,17 +12,17 @@ import Container from '../Container/Container.component';
 import Title from '../Title/Title.component';
 import ProjectsCard from './ProjectsCard.component';
 
-
 const Projects = () => {
-  const [projects, setProjects] = useState<ProjectsType[] | null>(null);
-  useEffect(() => {
-    (async () => {
-      const data = await getProjects();
-      setProjects(data);
-    })()
-  }, []);
-
   const { text } = CONTENT;
+  const getProjects = useGlobalStore((state) => state.getAllProjects);
+  const projects = useGlobalStore((state) => state.projects);
+
+  useEffect(() => {
+    if (!projects) {
+      getProjects();
+    }
+  }, [projects, getProjects]);
+
   const projectsForView = projects?.slice(0, 5);
   return (
     <Container sx="container w-full mb-[120px]">
@@ -32,6 +31,7 @@ const Projects = () => {
         {projectsForView?.map((project, index) => (
           <ProjectsCard
             index={index}
+            id={project._id}
             image={project.images.desktop[0]}
             alt={project.title}
             key={nanoid()}

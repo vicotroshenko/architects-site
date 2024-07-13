@@ -1,7 +1,6 @@
 'use client';
 
-import { getProjects } from '@/service/projects';
-import { ProjectsType } from '@/types/projects.type';
+import { useGlobalStore } from '@/store/global.store';
 import { nanoid } from 'nanoid';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -11,26 +10,29 @@ import CONTENT from '../../../public/data/projects.json';
 import ArrowIcon from '../ArrowIcon/ArrowIcon.component';
 import ButtonWrapper from '../ButtonWrapper/ButtonWrapper.component';
 import Container from '../Container/Container.component';
+import Loader from '../Loader/Loader.component';
 import PageWrapper from '../PageWrapper/PageWrapper.component';
 
 const ProjectsList = () => {
-  const [projects, setProjects] = useState<ProjectsType[] | null>(null);
+  const projects = useGlobalStore((state) => state.projects);
+  const getProjects = useGlobalStore((state) => state.getAllProjects);
+  const isLoading = useGlobalStore((state) => state.isLoading);
 
   useEffect(() => {
-    if (projects) return;
+    if (!projects) {
+      getProjects();
+    }
 
-    (async () => {
-      const data = await getProjects();
-      setProjects(data);
-    })();
     window.scrollTo({
       top: 102,
       left: 0,
       behavior: 'smooth',
     });
-  }, []);
+  }, [getProjects, projects]);
 
   const { text } = CONTENT;
+
+  if (isLoading) return <Loader />;
   return (
     <Container>
       <div className="container m-auto">
@@ -61,7 +63,7 @@ const ProjectsList = () => {
                 <ButtonWrapper style="LIGHT">
                   <Link
                     href={`projects/` + project._id}
-                    className="h-[71px] flex items-center justify-center gap-2"
+                    className="h-[71px] w-full flex items-center justify-center gap-2"
                   >
                     <span>{text.moreButton}</span>
                     <ArrowIcon />
