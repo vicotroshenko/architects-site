@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  distDir: 'dist',
   images: {
-    deviceSizes: [768, 1170],
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',
