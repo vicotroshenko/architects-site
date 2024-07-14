@@ -1,12 +1,14 @@
 import Project from '@/components/Project/Project.component';
-import { generateStaticParams } from '@/helpers/generateStaticParams.helper';
+import { getStaticParams } from '@/helpers/getStaticParams.helper';
 import React from 'react';
 
 interface ProjectByIdProps {
   params: { id: string };
 }
 
-generateStaticParams();
+export function generateStaticParams(){
+  return getStaticParams()
+};
 
 const ProjectsId: React.FC<ProjectByIdProps> = ({ params }) => {
   return (

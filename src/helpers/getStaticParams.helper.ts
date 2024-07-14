@@ -4,7 +4,7 @@ import { ProjectsType } from '@/types/projects.type';
 type Result = ProjectsType | null;
 let result: Result = null;
 
-export async function generateStaticParams() {
+export async function getStaticParams() {
   const url = HTTP.HOST + HTTP.PROJECT_PATH;
   if (result) {
     return result;
