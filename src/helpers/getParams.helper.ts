@@ -5,7 +5,7 @@ type Result = ProjectsType | null;
 let result: Result = null;
 
 export async function getParams() {
-  const url = process.env.HOST + HTTP.PROJECT_PATH;
+  const url = HTTP.HOST + HTTP.PROJECT_PATH;
   if (result) {
     return result;
   }

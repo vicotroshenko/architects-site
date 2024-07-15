@@ -11,7 +11,7 @@ export const connectToDB = async () => {
   }
 
   try {
-    await mongoose.connect(process.env.MONGODB_URI || '', {
+    await mongoose.connect('mongodb+srv://otroshenkovl:veUw3e3SqJF69Huy@cluster0.jdsn4yo.mongodb.net/architects', {
       dbName: 'architects',
     });
 
