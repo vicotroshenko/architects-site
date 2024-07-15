@@ -1,11 +1,12 @@
 import { HttpMessages } from '@/constants/HttpMessages.constants';
 import { HttpStatusCode } from '@/constants/HttpStatusCode.constant';
-import { getStaticParams } from '@/helpers/getStaticParams.helper';
+import { getParams } from '@/helpers/getParams.helper';
 import Architect from '@/models/architect';
 import { connectToDB } from '@/utils/database';
 
-export function generateStaticParams(){
-  return getStaticParams()
+
+export async function generateStaticParams(){
+  return await getParams()
 };
 
 interface ProjectByIdProps {
