@@ -3,7 +3,7 @@ import { HTTP } from '@/constants/service.constant';
 
 export const getProjects = async () => {
   try {
-    const url = HTTP.HOST + HTTP.PROJECT_PATH;
+    const url = HTTP.PROJECT_PATH;
     const res = await fetch(url);
     const data = await res.json();
     return data;
@@ -15,7 +15,7 @@ export const getProjects = async () => {
 
 export const getProjectById = async (id: string) => {
   try {
-    const url = HTTP.HOST + HTTP.PROJECT_PATH + id;
+    const url = HTTP.PROJECT_PATH + id;
     const res = await fetch(url);
     const data = await res.json();
     return data;
