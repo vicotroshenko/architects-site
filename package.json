@@ -26,7 +26,6 @@
     "react-loader-spinner": "^6.1.6",
     "react-toastify": "^10.0.5",
     "swiper": "^11.1.4",
-    "yarn": "^1.22.22",
     "yet-another-react-lightbox": "^3.21.1",
     "yup": "^1.4.0",
     "zustand": "^4.5.4"
