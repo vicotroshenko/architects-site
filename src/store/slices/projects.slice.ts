@@ -1,7 +1,12 @@
-import { getProjectById, getProjects } from '@/service/projects';
+// import { getProjectById, getProjects } from '@/service/projects';
+import { ProjectsType } from '@/types/projects.type';
 import { StateCreator } from 'zustand';
 
+
+
+import data from '../../../public/data/data.json';
 import { ProjectsStoreType } from '../types.store';
+
 
 const initialProjectsState = {
   projects: null,
@@ -16,9 +21,10 @@ export const createProjectsSlice: StateCreator<ProjectsStoreType> = (set) => ({
   getAllProjects: async (): Promise<void> => {
     try {
       set({ isLoading: true, isError: false, errorMessage: null });
-      const data = await getProjects();
+      //const data = await getProjects();
+      const result = data as unknown[];
       set({
-        projects: data,
+        projects: result as ProjectsType[],
         isLoading: false,
       });
     } catch (error) {
@@ -28,9 +34,10 @@ export const createProjectsSlice: StateCreator<ProjectsStoreType> = (set) => ({
   getProject: async (id: string): Promise<void> => {
     try {
       set({ isLoading: true, isError: false, errorMessage: null });
-      const data = await getProjectById(id);
+      // const data = await getProjectById(id);
+      const result = data.find((item) => item._id === id) as unknown;
       set({
-        project: data,
+        project: result as ProjectsType,
         isLoading: false,
       });
     } catch (error) {
