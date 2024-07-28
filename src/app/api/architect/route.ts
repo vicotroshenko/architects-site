@@ -3,7 +3,7 @@ import { HttpStatusCode } from '@/constants/HttpStatusCode.constant';
 import Architect from '@/models/architect';
 import { connectToDB } from '@/utils/database';
 import data from '../../../../public/data/data.json';
-export const GET = async () => {
+export async function GET() {
   try {
     await connectToDB();
 

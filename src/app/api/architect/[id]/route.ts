@@ -13,7 +13,7 @@ interface ProjectByIdProps {
   params: { id: string };
 }
 
-export const GET = async (request: unknown, { params }: ProjectByIdProps) => {
+export async function GET(request: unknown, { params }: ProjectByIdProps) {
   try {
     await connectToDB();
     // const result = await Architect.findById(params.id).exec();
