@@ -1,0 +1,244 @@
+[{
+  "_id": "668fdc5aab577477e4bdf650",
+  "images": {
+    "mobile": [
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/1/project-1-mobile.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/1/project-1_2-mobile.jpg?raw=true"
+    ],
+    "mobile2x": [
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/1/project-1-mobile_2x.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/1/project-1_2-mobile_2x.jpg?raw=true"
+    ],
+    "desktop": [
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/1/project-1-desctop.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/1/project-1_2-desctop.jpg?raw=true"
+    ],
+    "desktop2x": [
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/1/project-1-desctop_2x.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/1/project-1_2-desctop_2x.jpg?raw=true"
+    ]
+  },
+  "title": "Sample Project 1",
+  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with."
+},
+{
+  "_id": "668fdc5aab577477e4bdf651",
+  "images": {
+    "mobile": [
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/2/project-2-mobile.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/2/project-2_2-mobile.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/2/schema-project-2-mobile.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/2/schema-project-2_2-mobile.jpg?raw=true"
+    ],
+    "mobile2x": [
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/2/project-2-mobile_2x.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/2/project-2_2-mobile_2x.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/2/schema-project-2-mobile_2x.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/2/schema-project-2_2-mobile_2x.jpg?raw=true"
+    ],
+    "desktop": [
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/2/project-2-desctop.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/2/project-2_2-desctop.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/2/schema-project-2-desctop.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/2/schema-project-2_2-desctop.jpg?raw=true"
+    ],
+    "desktop2x": [
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/2/project-2-desctop_2x.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/2/project-2_2-desctop_2x.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/2/schema-project-2-desctop-2x.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/2/schema-project-2_2-desctop-2x.jpg?raw=true"
+    ]
+  },
+  "title": "Sample Project 2",
+  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with."
+},
+{
+  "_id": "668fdc5aab577477e4bdf652",
+  "images": {
+    "mobile": [
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/3/project-3-mobile.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/3/project-3_2-mobile.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/3/schema-project-3-mobile.jpg?raw=true"
+    ],
+    "mobile2x": [
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/3/project-3-mobile_2x.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/3/project-3_2-mobile_2x.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/3/schema-project-3-mobile_2x.jpg?raw=true"
+    ],
+    "desktop": [
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/3/project-3-desctop.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/3/project-3-desctop.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/3/project-3_2-desctop.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/3/schema-project-3-desctop.jpg?raw=true"
+    ],
+    "desktop2x": [
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/3/project-3-desctop_2x.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/3/project-3_2-desctop_2x.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/3/schema-project-3-desctop-2x.jpg?raw=true"
+    ]
+  },
+  "title": "Sample Project 3",
+  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with."
+},
+{
+  "_id": "668fdc5aab577477e4bdf653",
+  "images": {
+    "mobile": [
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/4/project-4-mobile.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/4/project-4_2-mobile.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/4/schema-project-2-mobile.jpg?raw=true"
+    ],
+    "mobile2x": [
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/4/project-4-mobile_2x.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/4/project-4_2-mobile_2x.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/4/schema-project-2-mobile_2x.jpg?raw=true"
+    ],
+    "desktop": [
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/4/project-4-desctop.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/4/project-4_2-desctop.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/4/schema-project-2-desctop.jpg?raw=true"
+    ],
+    "desktop2x": [
+      "/images/jpg/projects/2/project-2-desctop.jpg",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/4/project-4_2-desctop_2x.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/4/schema-project-2-desctop_2x.jpg?raw=true"
+    ]
+  },
+  "title": "Sample Project 4",
+  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with."
+},
+{
+  "_id": "668fdc5aab577477e4bdf654",
+  "images": {
+    "mobile": [
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/5/project-5-mobile.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/5/project-5_2-mobile.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/5/schema-project-5-mobile.jpg?raw=true"
+    ],
+    "mobile2x": [
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/5/project-5-mobile_2x.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/5/project-5_2-mobile_2x.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/5/schema-project-5-mobile_2x.jpg?raw=true"
+    ],
+    "desktop": [
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/5/project-5-desctop.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/5/project-5_2-desctop.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/5/schema-project-5-desctop.jpg?raw=true"
+    ],
+    "desktop2x": [
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/5/project-5-desctop_2x.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/5/project-5_2-desctop_2x.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/5/schema-project-5-desctop_2x.jpg?raw=true"
+    ]
+  },
+  "title": "Sample Project 5",
+  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with."
+},
+{
+  "_id": "668fdc5aab577477e4bdf655",
+  "images": {
+    "mobile": [
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/6/project-6-mobile.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/6/project-6_2-mobile.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/6/schema-project-6-mobile.jpg?raw=true"
+    ],
+    "mobile2x": [
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/6/project-6-mobile_2x.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/6/project-6_2-mobile_2x.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/6/schema-project-6-mobile_2x.jpg?raw=true"
+    ],
+    "desktop": [
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/6/project-6-desctop.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/6/project-6_2-desctop.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/6/schema-project-6-desctop.jpg?raw=true"
+    ],
+    "desktop2x": [
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/6/project-6-desctop_2x.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/6/project-6_2-desctop_2x.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/6/schema-project-6-desctop_2x.jpg?raw=true"
+    ]
+  },
+  "title": "Sample Project 6",
+  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with."
+},
+{
+  "_id": "668fdc5aab577477e4bdf656",
+  "images": {
+    "mobile": [
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/7/project-7-mobile.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/7/project-7_2-mobile.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/7/schema-project-7-mobile.jpg?raw=true"
+    ],
+    "mobile2x": [
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/7/project-7-mobile_2x.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/7/project-7_2-mobile_2x.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/7/schema-project-7-mobile_2x.jpg?raw=true"
+    ],
+    "desktop": [
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/7/project-7-desctop.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/7/project-7_2-desctop.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/7/schema-project-7-desctop.jpg?raw=true"
+    ],
+    "desktop2x": [
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/7/project-7-desctop_2x.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/7/project-7_2-desctop_2x.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/7/schema-project-7-desctop_2x.jpg?raw=true"
+    ]
+  },
+  "title": "Sample Project 7",
+  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with."
+},
+{
+  "_id": "668fdc5aab577477e4bdf657",
+  "images": {
+    "mobile": [
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/8/project-8-mobile.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/8/project-8_2-mobile.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/8/schema-project-8-mobile.jpg?raw=true"
+    ],
+    "mobile2x": [
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/8/project-8-mobile_2x.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/8/project-8_2-mobile_2x.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/8/schema-project-8-mobile_2x.jpg?raw=true"
+    ],
+    "desktop": [
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/8/project-8-desctop.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/8/project-8_2-desctop.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/8/schema-project-8-desctop.jpg?raw=true"
+    ],
+    "desktop2x": [
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/8/project-8-desctop_2x.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/8/project-8_2-desctop_2x.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/8/schema-project-8-desctop_2x.jpg?raw=true"
+    ]
+  },
+  "title": "Sample Project 8",
+  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with."
+},
+{
+  "_id": "668fdc5aab577477e4bdf658",
+  "images": {
+    "mobile": [
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/9/project-9-mobile.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/9/project-9_2-mobile.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/9/project-9_3-mobile.jpg?raw=true"
+    ],
+    "mobile2x": [
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/9/project-9-mobile_2x.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/9/project-9_2-mobile_2x.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/9/project-9_3-mobile_2x.jpg?raw=true"
+    ],
+    "desktop": [
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/9/project-9-desctop.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/9/project-9_2-desctop.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/9/project-9_3-desctop.jpg?raw=true"
+    ],
+    "desktop2x": [
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/9/project-9-desctop_2x.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/9/project-9_2-desctop_2x.jpg?raw=true",
+      "https://github.com/vicotroshenko/architects-site/blob/main/public/images/jpg/projects/9/project-9_3-desctop_2x.jpg?raw=true"
+    ]
+  },
+  "title": "Sample Project 9",
+  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with."
+}]

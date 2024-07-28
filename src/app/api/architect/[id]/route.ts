@@ -3,7 +3,7 @@ import { HttpStatusCode } from '@/constants/HttpStatusCode.constant';
 import { ids } from '@/constants/ids.constant';
 import Architect from '@/models/architect';
 import { connectToDB } from '@/utils/database';
-
+import data from '../../../../../public/data/data.json';
 
 export function generateStaticParams(){
   return ids
@@ -16,7 +16,8 @@ interface ProjectByIdProps {
 export const GET = async (request: unknown, { params }: ProjectByIdProps) => {
   try {
     await connectToDB();
-    const result = await Architect.findById(params.id).exec();
+    // const result = await Architect.findById(params.id).exec();
+    const result = data.find((item) => item._id === params.id);
     if (!result)
       return new Response(HttpMessages.NotFound, {
         status: HttpStatusCode.NotFound,
